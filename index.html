@@ -14,14 +14,7 @@
     <h1>Registration</h1>
       
     <form id="carForm"></form>
-
- <!-- Toggle 1 -->
-       
- <input type="checkbox" id="toggleCheckbox1">
- <label for="toggleCheckbox1" id="toggleLabel1">vehcle info</label>
- <div id="toggleContent1">
  
-
 
         <label for="RegistrationNumber">Registration Number:</label>
         <input type="text" id="RegistrationNumber" name="RegistrationNumber" required>
@@ -105,10 +98,6 @@
    <input type="text" id="inspectionLocation">
 </div>
 
-<!-- Toggle 2 -->
-<input type="checkbox" id="toggleCheckbox2">
-<label for="toggleCheckbox2" id="toggleLabel2">exterior</label>
-<div id="toggleContent2"></div>
 
     
    <h2>Exterior</h2>
@@ -368,9 +357,6 @@
    <textarea id="interiorComments"></textarea><br>
 </div>
 
-    <input type="checkbox" id="toggle2">
-    <label for="toggle2">testdrive</label>
-    <div class="toggle-content">
 
    <label for="testDrive">Test Drive</label>
    <select>
@@ -378,7 +364,7 @@
        <option value="Vehicle breakdown">Vehicle breakdown</option>
    </select>
 
-   </div>
+  
 
 <div class="section">
    <h2>Images</h2>
@@ -452,9 +438,11 @@
 
         <button type="button" onclick="generatePDF()">Generate PDF</button>
         
-   <script src="/script.js"></script
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-</body>
-</html>
+    <script src="/script.js"></script>
+</form> 
+    </body>
+   </html>
